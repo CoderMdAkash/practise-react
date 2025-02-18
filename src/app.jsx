@@ -2,13 +2,14 @@ import { Counter } from "./counter"
 import { PurchaseProductItem } from "./PurchaseProductItem"
 import Test from "./test"
 import { TextEffect } from './testEffect'
+import { NavLink } from "react-router"
 
 export function App() {
   return (
     <>
-    {/* <Counter /> */}
-    {/* <TextEffect /> */}
-    {/* <Test /> */}
+    <NavLink to="/test">Got to Test Page</NavLink>
+    <Counter />
+    <TextEffect />
     <PurchaseProductItem />
     </>
   )
