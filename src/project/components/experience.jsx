@@ -14,13 +14,23 @@ function Experience() {
                         <path
                             d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                     </svg>
-                    <div className="bg-[#21212e] inline-block h-[180px] w-[260px] mx-[30px] mt-[10px] rounded-[10px]">
+                    <div className="bg-[#21212e] inline-block h-[180px] mx-[30px] mt-[10px] rounded-[10px]">
                         <div className="bg-[#793fff] h-[25px] w-[100px] rounded-full mx-[20px] mt-[15px]">
                             <p className="text-[15px] text-white text-center py-[2px]">2022-2024</p>
                         </div>
                         <div className="mx-[30px] mt-[20px]">
                             <p className="text-white text-center mt-[2px]">Completed my E-learning & Pos-Management in this span of time from IISBD</p>
                         </div>
+                    </div>
+                </div>
+                <div
+                    className="bg-[#21212e] inline-block h-[180px] ml-[110px] mt-[10px] rounded-[10px] sm:ml-[280px] lg:ml-[480px] xl:ml-[680px] 2xl:ml-[780px]">
+                    <div className="bg-[#793fff] h-[25px] w-[100px] rounded-full mx-[20px] mt-[15px]">
+                        <p className="text-[15px] text-white text-center py-[2px]">2023-2025</p>
+                    </div>
+                    <div className="mx-[30px] mt-[20px]">
+                        <p className="text-white text-center mt-[2px]">Learned various CSS and JavaScript frameworks such as
+                            Tailwind CSS and React.</p>
                     </div>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
@@ -30,7 +40,7 @@ function Experience() {
                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                 </svg>
                 <div
-                    className="bg-[#21212e] inline-block h-[180px] w-[260px] ml-[110px] mt-[10px] rounded-[10px] sm:ml-[280px] lg:ml-[160px] xl:ml-[360px] 2xl:ml-[460px]">
+                    className="bg-[#21212e] inline-block h-[180px] ml-[110px] mt-[10px] rounded-[10px] sm:ml-[280px] lg:ml-[160px] xl:ml-[360px] 2xl:ml-[460px]">
                     <div className="bg-[#793fff] h-[25px] w-[100px] rounded-full mx-[20px] mt-[15px]">
                         <p className="text-[15px] text-white text-center py-[2px]">2024-2025</p>
                     </div>
@@ -45,7 +55,7 @@ function Experience() {
                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                 </svg>
                 <div
-                    className="bg-[#21212e] inline-block h-[180px] w-[260px] ml-[110px] mt-[10px] rounded-[10px] sm:ml-[280px] lg:ml-[480px] xl:ml-[680px] 2xl:ml-[780px]">
+                    className="bg-[#21212e] inline-block h-[180px] ml-[110px] mt-[10px] rounded-[10px] sm:ml-[280px] lg:ml-[480px] xl:ml-[680px] 2xl:ml-[780px]">
                     <div className="bg-[#793fff] h-[25px] w-[100px] rounded-full mx-[20px] mt-[15px]">
                         <p className="text-[15px] text-white text-center py-[2px]">2023-2025</p>
                     </div>
@@ -61,7 +71,7 @@ function Experience() {
                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                 </svg>
                 <div
-                    className="bg-[#21212e] inline-block h-[180px] w-[260px] ml-[110px] mt-[10px] rounded-[10px] sm:ml-[280px] lg:ml-[160px] xl:ml-[360px] 2xl:ml-[460px]">
+                    className="bg-[#21212e] inline-block h-[180px] ml-[110px] mt-[10px] rounded-[10px] sm:ml-[280px] lg:ml-[160px] xl:ml-[360px] 2xl:ml-[460px]">
                     <div className="bg-[#793fff] h-[25px] w-[100px] rounded-full mx-[20px] mt-[15px]">
                         <p className="text-[15px] text-white text-center py-[2px]">2022-2025</p>
                     </div>
@@ -77,7 +87,7 @@ function Experience() {
                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                 </svg>
                 <div
-                    className="bg-[#21212e] inline-block h-[180px] w-[260px] ml-[110px] mt-[10px] rounded-[10px] sm:ml-[280px] lg:ml-[480px] lg:mb-[40px] xl:ml-[680px] 2xl:ml-[780px]">
+                    className="bg-[#21212e] inline-block h-[180px] ml-[110px] mt-[10px] rounded-[10px] sm:ml-[280px] lg:ml-[480px] lg:mb-[40px] xl:ml-[680px] 2xl:ml-[780px]">
                     <div className="bg-[#793fff] h-[25px] w-[100px] rounded-full mx-[20px] mt-[15px]">
                         <p className="text-[15px] text-white text-center py-[2px]">Currently</p>
                         <div className="bg-[#793fff] h-[10px] w-[10px] rounded-full mx-[200px] -mt-[20px] animate-ping">
