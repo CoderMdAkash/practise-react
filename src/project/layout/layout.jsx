@@ -5,10 +5,11 @@ import { Outlet } from "react-router";
 function Loyout() {
     return ( 
         <>
-        <div className="bg-[#06021a] font-[Poppins]">
-            <Header />
+        <div className="font-[Poppins]">
+        {/* <div className="bg-[#06021a] font-[Poppins]"> */}
+            {/* <Header /> */}
             <Outlet />
-            <Footer />
+            {/* <Footer /> */}
         </div>
         </>
      );

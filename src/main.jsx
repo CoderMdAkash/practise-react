@@ -7,16 +7,21 @@ import About from './project/about'
 import Experience from './project/experience'
 import Projects from './project/projects'
 import Contact from './project/contact'
+import Test, { githubProfileLoader } from './test'
+import TestContextProvider from "./context/TestContextProvider"
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-        <Route path='/' element={<Layout />} >
-            <Route path='' element={<Home/>} />
-            <Route path='about' element={<About/>} />
-            <Route path='experience' element={<Experience/>} />
-            <Route path='projects' element={<Projects/>} />
-            <Route path='contact' element={<Contact/>} />
-        </Route>
+        <>
+            <Route path='/' element={<Layout />} >
+                <Route path='' element={<Home/>} />
+                <Route path='about' element={<About/>} />
+                <Route path='experience' element={<Experience/>} />
+                <Route path='projects' element={<Projects/>} />
+                <Route path='contact' element={<Contact/>} />
+            </Route>
+            <Route loader={githubProfileLoader} path="test/:testId/:opId?" element={<TestContextProvider><Test /></TestContextProvider>} />
+        </>
     )
 )
 
